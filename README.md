@@ -1,5 +1,3 @@
-# interview
-
 # DOCUMENTATION:
 # PART B (eatery)
 
