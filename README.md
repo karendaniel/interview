@@ -14,9 +14,20 @@ Instruction:
 
 	- tables user & listing created with default admin and normal user with password hashing as instructed.
 	- listing and add listing pages created as follows:
-
+	
+	-below pages only can be viwed if logged in (managed by SESSION)
 	1) SITE_URL/listing/
 	2) SITE_URL/add-listing/
+	
+	- default users login details:
+	
+	1) admin:
+	  email: admin@gmail.com
+	  password: 12345678
+	  
+	 2) normal user:
+	 email: user1@gmail.com
+	 password: 12345678
 
 4) go to setting in wordpress backend and just click save on the permalink page. This is for the url created to take effect. Then only the api can be used else it will throw error `saying no handler` found etc..
 
@@ -45,6 +56,7 @@ _____________
 	= parameter:
 
 		token, listing_id, listing_name
+	
 
 
 # PART C (minion)
