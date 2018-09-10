@@ -16,18 +16,11 @@ Instruction:
 	- listing and add listing pages created as follows:
 	
 	-below pages only can be viwed if logged in (managed by SESSION)
+	- use wordpress admin login to view these pages
+	
 	1) SITE_URL/listing/
 	2) SITE_URL/add-listing/
 	
-	- default users login details:
-	
-	1) admin:
-	  email: admin@gmail.com
-	  password: 12345678
-	  
-	 2) normal user:
-	 email: user1@gmail.com
-	 password: 12345678
 
 4) go to setting in wordpress backend and just click save on the permalink page. This is for the url created to take effect. Then only the api can be used else it will throw error `saying no handler` found etc..
 
@@ -49,6 +42,19 @@ _____________
 		email, password
 	= output:
 		token 
+		
+	=> may test login with default users created:
+	
+		- default users login details:
+	
+		1) admin:
+		  email: admin@gmail.com
+		  password: 12345678
+
+		 2) normal user:
+		 email: user1@gmail.com
+		 password: 12345678
+		 
 3) SITE_URL/index.php/wp-json/eatery/v1/mobile?request=listing&id=1&token={TOKEN DERIVED FROM LOGIN API)}
 
 4) SITE_URL/index.php/wp-json/eatery/v1/mobile?request=update
