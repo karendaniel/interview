@@ -28,6 +28,7 @@ List of APIs
 _____________
 
 1) SITE_URL/index.php/wp-json/eatery/v1/mobile?request=createLogin
+
 	= to create users
 	=parameter:
 		email, password, role(admin/normal)
