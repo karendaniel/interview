@@ -1,0 +1,47 @@
+.doropu-table tr th , .doropu-table tr td {
+	border: 1px solid #000;
+}
+
+button#stopProduct {
+    background-color:#ff0000;
+    color:#fff;
+    min-width:200px;
+    height:50px;
+    padding:10px;
+    border-radius:15px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button#totalFund {
+    background-color:#008000;
+    color:#fff;
+    min-width:200px;
+    height:50px;
+    padding:10px;
+    border-radius:15px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/*custom order status*/
+mark.status-shipped {
+ background-color:#000;
+ color:#fff;
+}
+
+mark.awaiting_shipment {
+ background-color:#ff0;
+ color:#000;
+}
+
+.menu-top .menu-icon-generic .toplevel_page_doropu-system {
+    background-color:#ff0 !important;
+}
+
+.rebate {
+    background-color:#FFC0CB;
+    font-weight:bold;
+}
