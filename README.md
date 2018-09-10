@@ -1,7 +1,8 @@
 # interview
 
-DOCUMENTATION:
-PART B (eatery)
+# DOCUMENTATION:
+# PART B (eatery)
+
 eatery => this is a wordpress plugin.
 
 Instruction:
@@ -48,7 +49,7 @@ _____________
 		token, listing_id, listing_name
 
 
-2) PART C (minion)
+# PART C (minion)
 
   - just 1 file (index.php)
   - it has input field to key in `index` value
