@@ -50,18 +50,17 @@ class EAT_Listing extends EAT_Setup
 
      return helper::response('success', "Listing Successfully Deleted", 200, 0);
   }
-  //sample request url 
-  //hhttp://local.interview/index.php/wp-json/eatery/v1/mobile?request=listing&id=2&token=VCQHchbzkZ3bkjKpygYsFOJTuJhpnPKe
-  public function listing($ID = false)
+
+ public function listing($ID = false)
   {
 
     if (!empty($_GET)){
       $token = trim($_GET['token']);
-      $id = $_GET['id'];
+      $ID = $_GET['id'];
 
       $this->login->authenticateToken($token);
 
-      if (!$id) {
+      if (!$ID) {
          helper::response('error', 'ID required', 400, 0);
       }
     }
